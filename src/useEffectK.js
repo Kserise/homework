@@ -14,7 +14,7 @@ const useEffectTest = () => {
 
 
     useEffect(() => {
-        console.log("컴포넌트 요소가 바뀔 때 마다 실행")
+        console.log("컴포넌트 내부 state가 바뀔 때 마다 실행")
     });
 
     return <div>
